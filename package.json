@@ -1,0 +1,26 @@
+{
+  "name": "Black-Bookstore",
+  "version": "1.0.0",
+  "description": "Black Bookstore App",
+  "main": "index.pug",
+  "scripts": {
+    "npm start": "nodemon server.js",
+    "npm test": "node test/server.js" }, 
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DeBrayC/blackboookstore.git"
+  },
+  "author": "DeBray Carpenter & Marquis Parks",
+  "license": "unlicensed",
+  "bugs": {
+    "url": "https://github.com/DeBrayC/blackboookstore/issues"
+  },
+  "homepage": "https://github.com/DeBrayC/blackbookstore#readme",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2",
+    "lint": "^1.1.2",
+    "pg-promise": "^5.6.7",
+    "pug": "^2.0.0-beta.12"
+  }
+}

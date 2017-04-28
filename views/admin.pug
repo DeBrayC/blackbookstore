@@ -1,0 +1,42 @@
+doctype html
+html
+  head
+    style
+      include index.css
+    meta(name='viewport', content='width=device-width, initial-scale=1.0')
+    meta(charset='utf-8')
+    title Black Bookstore App
+  body
+    #navbar
+      a(href='/') Home
+      a(href='/admin/1') Admin Login
+      hr
+    #books
+      table.table(style='width:80%')
+        tr
+          th
+          th Title
+          th Author
+          th Genre
+          th Description
+          th
+        tr
+          if books10
+           -for(book of books10){
+              td
+                #image
+                  img(src=book.image_url, width='100%', height=auto)
+              td.title
+                #{book.title}
+              td #{book.author}
+              td #{book.genre}
+              td #{book.description}
+              td
+              
+                  tr
+                      -}
+                      hr
+    footer
+      #addBookForm
+          a(href="/1") 1
+          a(href="/2") 2

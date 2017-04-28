@@ -1,0 +1,24 @@
+#body {
+}
+#navbar {
+  padding: 1%;
+  background-color: darkgrey;
+  margin: 1%;
+}
+.table th {
+  background-color: red;
+}
+#navbar a {
+  color: darkred;
+  padding: 1%;
+  background-color:
+}
+#addBookForm {
+
+}
+td.title {
+  font-weight: bold;
+}
+table {
+  padding: 2%;
+}
